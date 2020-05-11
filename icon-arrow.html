@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>图标样式</title>
+  <style>
+    .icon-arrow{position: relative; width: 120px; height: 80px; border: 1px solid #CCC;}
+    .icon-arrow+.icon-arrow{margin-top: 50px;}
+
+    .l,.r{position: absolute; left: 10px; display: inline-block; width: 50px; height: 1px; background-color: #CCC; transform: rotate(-20deg);}
+    .r{left: 57px; transform: rotate(20deg);}
+    .b1{top: 20px;}
+    .b2{top: 25px;}
+    .b3{top: 50px;}
+    .s{position: absolute; top: 29px; display: inline-block; width: 1px; height: 30px; background-color: #CCC;}
+    .s1{left: 11px;}
+    .s2{left: 105px;}
+    .c{position: absolute; top: 40px; display: inline-block; width: 30px; height: 1px;}
+
+    .c1{left: 29px; background: linear-gradient(to right, #00BFFF , #8470FF); transform: rotate(-20deg);}
+    .c2{left: 57px; background: linear-gradient(to right, #8470FF , #A020F0); transform: rotate(20deg);}
+
+    .icon-arrow-top{transform: rotate(0deg);}
+    .icon-arrow-left{transform: rotate(-90deg);}
+    .icon-arrow-right{transform: rotate(-270deg);}
+    .icon-arrow-bottom{transform: rotate(-180deg);}
+  </style>
+</head>
+<body>
+  <div class="icon-arrow icon-arrow-top">
+    <span class="l b1"></span>
+    <span class="l b2"></span>
+    <span class="l b3"></span>
+    <span class="r b1"></span>
+    <span class="r b2"></span>
+    <span class="r b3"></span>
+    <span class="s s1"></span>
+    <span class="s s2"></span>
+    <span class="c c1"></span>
+    <span class="c c2"></span>
+  </div>
+  <div class="icon-arrow icon-arrow-left">
+    <span class="l b1"></span>
+    <span class="l b2"></span>
+    <span class="l b3"></span>
+    <span class="r b1"></span>
+    <span class="r b2"></span>
+    <span class="r b3"></span>
+    <span class="s s1"></span>
+    <span class="s s2"></span>
+    <span class="c c1"></span>
+    <span class="c c2"></span>
+  </div>
+  <div class="icon-arrow icon-arrow-right">
+    <span class="l b1"></span>
+    <span class="l b2"></span>
+    <span class="l b3"></span>
+    <span class="r b1"></span>
+    <span class="r b2"></span>
+    <span class="r b3"></span>
+    <span class="s s1"></span>
+    <span class="s s2"></span>
+    <span class="c c1"></span>
+    <span class="c c2"></span>
+  </div>
+  <div class="icon-arrow icon-arrow-bottom">
+    <span class="l b1"></span>
+    <span class="l b2"></span>
+    <span class="l b3"></span>
+    <span class="r b1"></span>
+    <span class="r b2"></span>
+    <span class="r b3"></span>
+    <span class="s s1"></span>
+    <span class="s s2"></span>
+    <span class="c c1"></span>
+    <span class="c c2"></span>
+  </div>
+</body>
+</html>
